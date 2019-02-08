@@ -1,0 +1,51 @@
+doctype html
+html(lang="ru-RU")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="static/css/main.css")
+        title test
+    body
+        .menu
+            header.menu__header.container
+                a(href="#").logo
+                    img.logo__img(src="static/img/content/logo.png")
+                    p.logo__text Остоженка 11
+                .btn-close
+                    .btn-close__line.btn-close__line--one
+                    .btn-close__line.btn-close__line--two
+                //Можно было сделать и пседоэлементами или же иконкой, но так можно сделать анимацию
+            .menu__body.container
+                ul.nav-list
+                    li.nav-list__item
+                        a(href="#").nav-list__link
+                            h3.nav-list__title О проекте
+                            p.nav-list__desription О жилом комплексе
+                    li.nav-list__item
+                        a(href="#").nav-list__link
+                            h3.nav-list__title Архитектура
+                            p.nav-list__desription Описание архитектурного стиля
+                    li.nav-list__item
+                        a(href="#").nav-list__link
+                            h3.nav-list__title Галерея
+                            p.nav-list__desription Фото отделки и фасада
+                    li.nav-list__item
+                        a(href="#").nav-list__link
+                            h3.nav-list__title Квартиры
+                            p.nav-list__desription Предложения о продаже
+                    li.nav-list__item
+                        a(href="#").nav-list__link
+                            h3.nav-list__title Презентация
+                            p.nav-list__desription Видео и pdf презентация
+                    li.nav-list__item
+                        a(href="#").nav-list__link
+                            h3.nav-list__title Заявка
+                            p.nav-list__desription Консультация от нашего менеджера
+                    li.nav-list__item
+                        a(href="#").nav-list__link
+                            h3.nav-list__title Ипотека
+                            p.nav-list__desription Доступная ипотека от партнеров
+                    li.nav-list__item
+                        a(href="#").nav-list__link
+                            h3.nav-list__title Контакты
+                            p.nav-list__desription Обратная связь
